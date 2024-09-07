@@ -263,14 +263,14 @@ console.log("\nReturning 'To Kill a Mockingbird':");
   } else {
         console.log(`Failed to return '${book2.title}'`);
   }
- 
+
   console.log("\nReturning 'Pride and Prejudice':");
      if (member3.returnBook(book5)) {
         console.log(`${member3.name} successfully returned '${book5.title}'`);
   } else {
         console.log(`Failed to return '${book5.title}'`);
   }
-  
+
   console.log("\nReturning 'The Catcher in the Rye':");
   if (member4.returnBook(book6)) {
      console.log(`${member4.name} successfully returned '${book6.title}'`);
@@ -291,7 +291,7 @@ console.log("\nReturning 'The Hobbit':");
   } else {
         console.log(`Failed to return '${book10.title}'`);
   }
-  
+
 // Display library status again
 console.log("\nLibrary status:");
 console.log(library.toString());
